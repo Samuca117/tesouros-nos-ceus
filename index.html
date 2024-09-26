@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>O Tesouro nos Céus</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Você encontra um mapa antigo que revela a localização de um tesouro lendário escondido em uma cidade flutuante, suspensa nas nuvens. Dizem que quem encontrar esse tesouro ganhará poder e conhecimento inimagináveis. Sua jornada começa agora.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir para o Deserto Esquecido</button>
+            <button class="btn-proximo" data-proximo="2">Explorar a Floresta das Sombras</button>
+        </div>
+        
+        <!-- Deserto Esquecido -->
+        <div class="passo" id="passo-1">
+            <p>Em meio às tempestades de areia e ruínas antigas, você encontra inscrições misteriosas que parecem indicar o caminho para os céus.</p>
+            <button class="btn-proximo" data-proximo="3">Decifrar as inscrições</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar as inscrições e continuar</button>
+        </div>
+        
+        <!-- Floresta das Sombras -->
+        <div class="passo" id="passo-2">
+            <p>Na floresta, você encontra caçadores de tesouros rivais que também estão em busca do tesouro nos céus. Eles não parecem dispostos a dividir a descoberta.</p>
+            <button class="btn-proximo" data-proximo="5">Lutar contra os caçadores</button>
+            <button class="btn-proximo" data-proximo="6">Esconder-se e segui-los de longe</button>
+        </div>
+        
+        <!-- Decifrando as Inscrições -->
+        <div class="passo" id="passo-3">
+            <p>Ao decifrar as inscrições, você descobre que elas falam sobre um portal escondido nas montanhas que pode levá-lo até os céus.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para as montanhas e procurar o portal</button>
+        </div>
+        
+        <!-- Ignorar as Inscrições -->
+        <div class="passo" id="passo-4">
+            <p>Ignorando as inscrições, você se perde nas vastas dunas do deserto e nunca encontra o tesouro. Sua jornada termina aqui.</p>
+        </div>
+        
+        <!-- Luta contra Caçadores -->
+        <div class="passo" id="passo-5">
+            <p>Após uma batalha difícil, você derrota os caçadores, mas acaba ferido. No entanto, você encontra uma chave mística que pode ativar o portal para a cidade flutuante.</p>
+            <button class="btn-proximo" data-proximo="7">Usar a chave para abrir o portal</button>
+        </div>
+        
+        <!-- Seguir os Caçadores -->
+        <div class="passo" id="passo-6">
+            <p>Você segue os caçadores e descobre uma caverna oculta com pistas que indicam a localização do portal nos céus.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir as pistas para o portal</button>
+        </div>
+        
+        <!-- Portal nas Montanhas -->
+        <div class="passo" id="passo-7">
+            <p>Você finalmente chega ao portal escondido nas montanhas. Usando a chave ou os conhecimentos adquiridos, você o ativa e é transportado para uma cidade mística nas nuvens, onde o tesouro lendário está guardado.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar a cidade flutuante e encontrar o tesouro</button>
+        </div>
+        
+        <!-- Cidade Flutuante (Final) -->
+        <div class="passo" id="passo-9">
+            <p>Você encontra o tesouro nos céus, um artefato de poder incrível que contém o segredo da sabedoria antiga. Ao tocá-lo, você sente que se tornou parte de algo maior. Sua jornada termina, mas agora você carrega o poder de transformar o mundo.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
